@@ -1,0 +1,313 @@
+#include <SDL.h>
+#include <stdio.h>
+#include <SDL_image.h>
+#include <SDL_mixer.h>
+#include "bewegung.h"
+#include "eingabe.h"
+#include "kampf.h"
+#include "thread.h"
+#include "dateityp.h"
+#include "loadimage.h"
+#include "render.h"
+
+#define FPS 100
+
+SDL_Event event;
+
+
+int main(int argc, char* args[])
+{
+
+    Tasten.run=1;
+
+    int data = &Tasten.zeit;
+    Tasten.flugzeug = 1300;
+    int fpsticker = 0;
+    int fps = 0;
+    int fpsverzoegerung = 0;
+
+
+    SDL_Window *ausgabe = NULL;        // Hauptfenster
+    SDL_Surface *vorbereitung = NULL;   // Oberfläche Ausgabe
+
+
+    SDL_Init(SDL_INIT_EVERYTHING);
+    //SDL_Init(SDL_INIT_VIDEO | SDL_INIT_AUDIO);
+    Mix_OpenAudio( 44100, MIX_DEFAULT_FORMAT, 2, 2048 );            // Audio initialisieren
+
+
+    SDL_Thread *Thread = SDL_CreateThread(ThreadZeit,"ThreadZeit",(void*)data);
+
+    ausgabe = SDL_CreateWindow           (
+                  "Game",
+                  0,        // Fenster Position
+                  25,       // Fenster Position
+                  1280,     // Fenstergröße
+                  720,      // Fenstergröße
+                  SDL_WINDOW_FULLSCREEN
+              );
+
+    if (ausgabe == NULL)
+    {
+        printf("Fenster konnte nicht erstellt werden");
+        return 1;
+    }
+
+    SDL_ShowCursor(SDL_DISABLE);    // Mauszeiger entfernen
+    vorbereitung = SDL_GetWindowSurface(ausgabe);   //Initialisierung der Oberfläche
+
+
+
+
+
+
+    /**************************************************************************************************************************************************************************************************/
+    if(loadSDLdata()!=1){
+        return 3;
+    }
+
+
+    Mix_PlayMusic( hintergrundmusik, -1 );
+    Mix_PlayChannel(0,musikspieler1angriff,0);
+
+
+
+    while(Tasten.run==1)                // Laufen bis das Fenster geschlossen wird oder Escape gedrückt wird
+    {
+
+        struct Figur spieler1 = {20,BODEN,"r",0,LEBEN,0,"Troll",0,0,0,0};
+        struct Figur spieler2 = {1150,BODEN,"l",0,LEBEN,0,"Einhorn",0,0,0,0};
+
+        Tasten.run=2;
+
+        while(Tasten.run == 2)
+        {
+            SDL_PollEvent(&event);
+
+
+            /****************************************************************************************************************************************************************************
+                                                                FPS ZÄHLER und Anpassung
+                                                                ***********************/
+            if(Tasten.zeit % 10 == 1 )
+            {
+                if(fpsticker !=0)
+                {
+                    Tasten.fpsaktuell = fps = (fpsticker*1000)/900;
+                    printf("FPS: %d\n", fps);
+                    fpsverzoegerung =fpsverzoegerung+(1000/FPS)-(1000/fps);
+                    if (fpsverzoegerung<0)
+                    {
+                        fpsverzoegerung = 0;
+                    }
+                }
+                fpsticker=0;
+
+            }
+
+            else
+            {
+                fpsticker++;
+            }
+            /************Delay*******************/
+            SDL_Delay(fpsverzoegerung);
+
+            /*****************************************************************************************************************************************************************************/
+            //printf("Test:%d \n",Tasten.zeit);
+
+
+
+            SDL_BlitSurface(hintergrund,NULL,vorbereitung,NULL);
+
+            Eingabe(& Tasten);
+            Abwehr(&Tasten,&spieler1,&spieler2);
+            Angriff(&Tasten,&spieler1,&spieler2);
+            Bewegung(& Tasten,& spieler1,& spieler2);
+            Sprung(&Tasten,&spieler1,&spieler2);
+           // renderSDLdata();
+
+
+            SDL_Rect position;          // Position des Bildes
+            position.x = spieler1.positionx;
+            position.y = spieler1.positiony;
+
+            if(spieler1.blickrichtung=='l')
+            {
+                SDL_BlitSurface(bildspieler1andere,NULL,vorbereitung,&position);
+                if(Tasten.angriffbewegungspieler1==1)
+                {
+                    Mix_PlayMusic(hintergrundmusik,-1);
+                    position.x = spieler1.positionx -60;
+                    position.y = spieler1.positiony+25;
+                    SDL_BlitSurface(bildspieler1waffel,NULL,vorbereitung,&position);
+                }
+
+            }
+            else
+            {
+                SDL_BlitSurface(bildspieler1,NULL,vorbereitung,&position);
+                if(Tasten.angriffbewegungspieler1==1)
+                {
+                    position.x = spieler1.positionx + 60;
+                    position.y = spieler1.positiony + 25;
+                    SDL_BlitSurface(bildspieler1waffer,NULL,vorbereitung,&position);
+                }
+
+            }
+
+            //Verteidigung Spieler 1
+
+            position.x = spieler1.positionx+12;
+            position.y = spieler1.positiony-20;
+
+            if(spieler1.verteidigung==1)
+            {
+                SDL_BlitSurface(bildspieler1verteidigung,NULL,vorbereitung,&position);
+            }
+
+            //Spieler2
+
+            position.x = spieler2.positionx;
+            position.y = spieler2.positiony;
+
+            if(spieler2.blickrichtung=='r')
+            {
+                SDL_BlitSurface(bildspieler2andere,NULL,vorbereitung,&position);
+                if(Tasten.angriffbewegungspieler2==1)
+                {
+                    position.x = spieler2.positionx +85;
+                    position.y = spieler2.positiony + 10;
+                    SDL_BlitSurface(bildspieler2waffer,NULL,vorbereitung,&position);
+                }
+            }
+            else
+            {
+                SDL_BlitSurface(bildspieler2,NULL,vorbereitung,&position);
+                if(Tasten.angriffbewegungspieler2==1)
+                {
+                    position.x = spieler2.positionx -85;
+                    position.y = spieler2.positiony+10;
+                    SDL_BlitSurface(bildspieler2waffel,NULL,vorbereitung,&position);
+                }
+            }
+
+            //Verteidigung Spieler 2
+
+            position.x = spieler2.positionx;
+            position.y = spieler2.positiony-20;
+
+            if(spieler2.verteidigung==1)
+            {
+                SDL_BlitSurface(bildspieler2verteidigung,NULL,vorbereitung,&position);
+            }
+
+            //Leben Spieler 1
+
+            double leben1;
+            int pixel1;
+            for(leben1=spieler1.leben,pixel1=30; leben1>0; leben1--,pixel1=pixel1+20)
+            {
+                position.x = pixel1;
+                position.y = 20;
+                SDL_BlitSurface(bildleben,NULL,vorbereitung,&position);
+            }
+
+            //Leben Spieler 2
+
+            double leben2;
+            int pixel2;
+            for(leben2=spieler2.leben,pixel2=1200; leben2>0; leben2--,pixel2=pixel2-20)
+            {
+                position.x = pixel2;
+                position.y = 20;
+                SDL_BlitSurface(bildleben,NULL,vorbereitung,&position);
+            }
+
+
+            //Flugzeug
+
+            position.x = Tasten.flugzeug;
+            position.y = 50;
+
+            if(Tasten.zeit>100&& Tasten.flugzeug>-1300)
+            {
+
+                SDL_BlitSurface(bildflugzeug,NULL,vorbereitung,&position);
+                Tasten.flugzeug=Tasten.flugzeug- 2;
+            }
+
+
+
+
+
+
+
+
+
+
+            if(spieler1.leben<0 || spieler2.leben<0)
+            {
+                Tasten.run=1;
+                Mix_PauseMusic();
+                if(spieler2.leben<=0)
+                {
+                    SDL_BlitSurface(bildspieler1ergebnis,NULL,vorbereitung,NULL);
+                }
+                else if (spieler1.leben<=0)
+                {
+                    SDL_BlitSurface(bildspieler2ergebnis,NULL,vorbereitung,NULL);
+                }
+                SDL_UpdateWindowSurface(ausgabe);
+                SDL_Delay(2000);
+                int abbruch = 1;
+                while(abbruch)
+                {
+                    while (SDL_PollEvent(&event)!=0)
+                    {
+                        if (event.type== SDL_KEYDOWN)
+                        {
+                            abbruch = 0;
+                        }
+                    }
+                    Mix_ResumeMusic();
+                }
+
+            }
+
+
+
+
+            SDL_UpdateWindowSurface(ausgabe);
+
+
+        }
+    }
+
+
+    Mix_FreeMusic(hintergrundmusik);
+    Mix_FreeMusic(musikspieler1angriff);
+    Mix_FreeMusic(musikspieler2angriff);
+    Mix_FreeMusic(musikspieler1gewinnt);
+    Mix_FreeMusic(musikspieler2gewinnt);
+    SDL_DestroyWindow(ausgabe);
+    SDL_FreeSurface(vorbereitung);
+    SDL_FreeSurface(bildspieler1);
+    SDL_FreeSurface(bildspieler1andere);
+    SDL_FreeSurface(bildspieler1waffel);
+    SDL_FreeSurface(bildspieler1waffer);
+    SDL_FreeSurface(bildspieler1ergebnis);
+
+    SDL_FreeSurface(bildspieler2);
+    SDL_FreeSurface(bildspieler2andere);
+    SDL_FreeSurface(bildspieler2waffel);
+    SDL_FreeSurface(bildspieler2waffer);
+    SDL_FreeSurface(bildspieler2ergebnis);
+
+    SDL_FreeSurface(bildleben);
+
+    SDL_FreeSurface(bildflugzeug);
+
+    Mix_CloseAudio();
+    SDL_Quit();
+    printf("\n\tSicher beendet\n\n");
+    return 0;
+}

@@ -1,0 +1,1940 @@
+# depslib dependency file v1.0
+1486029712 source:c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\programmierprojekt\main.c
+	<SDL.h>
+	<stdio.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	"bewegung.h"
+	"kampf.h"
+	"eingabe.h"
+	"dateityp.h"
+	"loadimage.h"
+	"render.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483440476 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_config.h
+	"SDL_platform.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\begin_code.h
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\close_code.h
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364098 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364098 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325810433 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl_image-1.2.12\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1485438319 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl_mixer-1.2.12\include\sdl_mixer.h
+	"SDL_types.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_types.h
+	"SDL_stdinc.h"
+
+1485859530 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\programmierprojekt\bewegung.h
+	"dateityp.h"
+
+1486028475 source:c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\programmierprojekt\bewegung.c
+	"bewegung.h"
+	<math.h>
+
+1486029166 source:c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\programmierprojekt\eingabe.c
+	"eingabe.h"
+	<SDL.h>
+
+1485859569 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\programmierprojekt\eingabe.h
+	"dateityp.h"
+
+1485859542 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\programmierprojekt\dateityp.h
+	<SDL.h>
+	<SDL_mixer.h>
+
+1485859582 source:c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\programmierprojekt\kampf.c
+	"kampf.h"
+
+1485859591 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\programmierprojekt\kampf.h
+	"dateityp.h"
+
+1485859651 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\programmierprojekt\thread.h
+	<SDL_thread.h>
+	"dateityp.h"
+
+1485859651 source:c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\programmierprojekt\thread.c
+	"thread.h"
+	<SDL.h>
+
+1485937512 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\programmierprojekt\loadimage.h
+	<SDL.h>
+	<SDL_mixer.h>
+
+1485366308 source:c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\programmierprojekt\loadimage.c
+	"loadimage.h"
+	<SDL.h>
+	<SDL_mixer.h>
+
+1485859634 c:\users\mika\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\programmierprojekt\render.h
+	<SDL.h>
+	<SDL_mixer.h>
+	"dateityp.h"
+
+1485859524 source:c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\programmierprojekt\bewegung.c
+	"bewegung.h"
+	<math.h>
+
+1485859530 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\programmierprojekt\bewegung.h
+	"dateityp.h"
+
+1485859542 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\programmierprojekt\dateityp.h
+	<SDL.h>
+	<SDL_mixer.h>
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483440476 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_config.h
+	"SDL_platform.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\begin_code.h
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\close_code.h
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364098 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364098 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1485438319 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl_mixer-1.2.12\include\sdl_mixer.h
+	"SDL_types.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1483364097 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_types.h
+	"SDL_stdinc.h"
+
+1485859552 source:c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\programmierprojekt\eingabe.c
+	"eingabe.h"
+	<SDL.h>
+
+1485859569 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\programmierprojekt\eingabe.h
+	"dateityp.h"
+
+1485859582 source:c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\programmierprojekt\kampf.c
+	"kampf.h"
+
+1485859591 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\programmierprojekt\kampf.h
+	"dateityp.h"
+
+1485859614 source:c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\programmierprojekt\main.c
+	<SDL.h>
+	<stdio.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	"bewegung.h"
+	"kampf.h"
+	"eingabe.h"
+	"dateityp.h"
+	"loadimage.h"
+	"render.h"
+
+1325810433 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\01 sdl\sdl_image-1.2.12\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1485859651 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\programmierprojekt\thread.h
+	<SDL_thread.h>
+	"dateityp.h"
+
+1485859608 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\programmierprojekt\loadimage.h
+	<SDL.h>
+	<SDL_mixer.h>
+
+1485859634 c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\programmierprojekt\render.h
+	<SDL.h>
+	<SDL_mixer.h>
+	"dateityp.h"
+
+1485859651 source:c:\users\mikah\desktop\uni unterlagen (sync)\1. semester\prozedurale programmierung\02 programmierprojekt\programmierprojekt\thread.c
+	"thread.h"
+	<SDL.h>
+
+1486043755 source:c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\programmierprojekt\bewegung.c
+	"bewegung.h"
+	<math.h>
+
+1486043755 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\programmierprojekt\bewegung.h
+	"dateityp.h"
+
+1486043755 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\programmierprojekt\dateityp.h
+	<SDL.h>
+	<SDL_mixer.h>
+
+1486043752 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_config.h
+	"SDL_platform.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\begin_code.h
+
+1486043752 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\close_code.h
+
+1486043752 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043754 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl_mixer-1.2.12\include\sdl_mixer.h
+	"SDL_types.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_types.h
+	"SDL_stdinc.h"
+
+1486043755 source:c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\programmierprojekt\kampf.c
+	"kampf.h"
+
+1486043755 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\programmierprojekt\kampf.h
+	"dateityp.h"
+
+1486043755 source:c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\programmierprojekt\main.c
+	<SDL.h>
+	<stdio.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	"bewegung.h"
+	"kampf.h"
+	"eingabe.h"
+	"dateityp.h"
+	"loadimage.h"
+	"render.h"
+
+1486043754 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl_image-1.2.12\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1485852080 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\programmierprojekt\thread.h
+	<SDL_thread.h>
+	"dateityp.h"
+
+1486043755 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\programmierprojekt\loadimage.h
+	<SDL.h>
+	<SDL_mixer.h>
+
+1486043755 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\programmierprojekt\render.h
+	<SDL.h>
+	<SDL_mixer.h>
+	"dateityp.h"
+
+1485852080 source:c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\programmierprojekt\thread.c
+	"thread.h"
+	<SDL.h>
+
+1486055559 source:c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\programmierprojekt\eingabe.c
+	"eingabe.h"
+	<SDL.h>
+
+1486043755 c:\users\lukas büsch\google drive\uni\prozedurale programmmierung\programmier projekt\02 programmierprojekt\programmierprojekt\eingabe.h
+	"dateityp.h"
+
+1486043755 source:c:\users\lukas büsch\desktop\02 programmierprojekt\programmierprojekt\bewegung.c
+	"bewegung.h"
+	<math.h>
+
+1486043755 c:\users\lukas büsch\desktop\02 programmierprojekt\programmierprojekt\bewegung.h
+	"dateityp.h"
+
+1486043755 c:\users\lukas büsch\desktop\02 programmierprojekt\programmierprojekt\dateityp.h
+	<SDL.h>
+	<SDL_mixer.h>
+
+1486043752 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_config.h
+	"SDL_platform.h"
+
+1486043753 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\begin_code.h
+
+1486043752 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\close_code.h
+
+1486043752 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1486043753 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1486043752 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1486043752 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043754 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl_mixer-1.2.12\include\sdl_mixer.h
+	"SDL_types.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_types.h
+	"SDL_stdinc.h"
+
+1486055559 source:c:\users\lukas büsch\desktop\02 programmierprojekt\programmierprojekt\eingabe.c
+	"eingabe.h"
+	<SDL.h>
+
+1486043755 c:\users\lukas büsch\desktop\02 programmierprojekt\programmierprojekt\eingabe.h
+	"dateityp.h"
+
+1486043755 source:c:\users\lukas büsch\desktop\02 programmierprojekt\programmierprojekt\kampf.c
+	"kampf.h"
+
+1486043755 c:\users\lukas büsch\desktop\02 programmierprojekt\programmierprojekt\kampf.h
+	"dateityp.h"
+
+1486043755 source:c:\users\lukas büsch\desktop\02 programmierprojekt\programmierprojekt\main.c
+	<SDL.h>
+	<stdio.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	"bewegung.h"
+	"kampf.h"
+	"eingabe.h"
+	"dateityp.h"
+	"loadimage.h"
+	"render.h"
+
+1486043754 c:\users\lukas büsch\desktop\02 programmierprojekt\01 sdl\sdl_image-1.2.12\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043755 c:\users\lukas büsch\desktop\02 programmierprojekt\programmierprojekt\loadimage.h
+	<SDL.h>
+	<SDL_mixer.h>
+
+1486043755 c:\users\lukas büsch\desktop\02 programmierprojekt\programmierprojekt\render.h
+	<SDL.h>
+	<SDL_mixer.h>
+	"dateityp.h"
+
+1486043755 source:c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\programmierprojekt\bewegung.c
+	"bewegung.h"
+	<math.h>
+
+1486043755 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\programmierprojekt\bewegung.h
+	"dateityp.h"
+
+1486043755 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\programmierprojekt\dateityp.h
+	<SDL.h>
+	<SDL_mixer.h>
+
+1486043752 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_config.h
+	"SDL_platform.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\begin_code.h
+
+1486043752 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\close_code.h
+
+1486043752 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043752 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043754 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl_mixer-1.2.12\include\sdl_mixer.h
+	"SDL_types.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043753 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl2-2.0.5\include\sdl_types.h
+	"SDL_stdinc.h"
+
+1486055559 source:c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\programmierprojekt\eingabe.c
+	"eingabe.h"
+	<SDL.h>
+
+1486043755 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\programmierprojekt\eingabe.h
+	"dateityp.h"
+
+1486043755 source:c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\programmierprojekt\kampf.c
+	"kampf.h"
+
+1486043755 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\programmierprojekt\kampf.h
+	"dateityp.h"
+
+1486043755 source:c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\programmierprojekt\main.c
+	<SDL.h>
+	<stdio.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	"bewegung.h"
+	"kampf.h"
+	"eingabe.h"
+	"dateityp.h"
+	"loadimage.h"
+	"render.h"
+
+1486043754 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\01 sdl\sdl_image-1.2.12\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486043755 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\programmierprojekt\loadimage.h
+	<SDL.h>
+	<SDL_mixer.h>
+
+1486043755 c:\users\lukas büsch\google drive\uni\1.semester\prozedurale programmmierung\programmier projekt\02 programmierprojekt\programmierprojekt\render.h
+	<SDL.h>
+	<SDL_mixer.h>
+	"dateityp.h"
+
